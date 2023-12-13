@@ -1,11 +1,7 @@
-const elDarkModeButton = document.querySelector(".site-header-dark");
-const elLightModeButton = document.querySelector(".site-header-light");
-// const elModetoggler = document.querySelector(".site-header-dark-mode-toggler");
+const elSiteThemeToggler = document.querySelector(".site-header-theme-toggler");
 
-elDarkModeButton.addEventListener("click", function () {
-  document.body.classList.add("dark-mode");
-});
 
-elLightModeButton.addEventListener("click", function() {
-  document.body.classList.remove("dark-mode");
+
+elSiteThemeToggler.addEventListener("click", function () {
+  document.body.classList.toggle("dark-mode");
 });
