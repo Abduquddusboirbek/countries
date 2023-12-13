@@ -3,14 +3,113 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects</title>
+  <title>Countries</title>
+  <!-- GOOGLE-FONTS -->
+
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <div class="container"></div>
+<!-- SITE-HEADER -->
+<header class="site-header">
 
+    <div class="site-header-container container">
+
+    <a class="site-header-logo" href="#">Where in the world?</a>
+
+
+      <button class="site-header-light" type="button"><img class="header-img" src="img/Group 3.svg " alt="header-button" width="20" height="20"> </button>
+
+
+    <button class="site-header-dark" type="button">Dark Mode</button>
+
+
+
+
+
+    </div>
+  </div>
+</header>
+
+
+
+
+
+<main class=".main-content">
+  <div class="container">
+  <!-- GLOBAL-SEARCH-FORM -->
+
+<div class="box">
+  <div class="global">
+
+
+
+    <form class="global-search-form" action="https://echo.htmlacademy.ru" method="GET">
+      <input class="global-search-form-input" type="search" name="search" placeholder=" Search for a country…" aria-label="Search for a country…" required>
+    </form>
+  <form class="global-form" action="https://echo.htmlacademy.ru"></form>
+  </div>
+
+  <div class="country">
+    <label for="country-type-select"></label>
+  <select name="country-type" id="country-type-select">
+  <option value="Filter by Region">Filter by Region</option>
+  <option value="country">Africa</option>
+  <option value="country">America</option>
+  <option value="country">Asia</option>
+  <option value="country">Europe</option>
+  <option value="country">Oceania</option>
+  </select>
+  </div>
+</div>
+
+<ul class="site-ul">
+  <div class="contr">
+    <li class="site-item">
+      <img class="site-img" src="img/1280px-Flag_of_Germany.svg.png" alt="Germany" >
+      <div class="rubic">
+    <h2 class="site-heading">Germany</h2>
+     <p class="site-text"> <b>Population:</b> 81,770,900</p>
+     <p class="site-text"> <b> Region: </b>    Europe</p>
+       <p class="site-text"> <b> Capital: </b>   Berlin</p>
+     </div>
+    </li>
+    <li class="site-item">
+      <img class="site-img" src="img/1280px-Flag_of_Americavg-1.png" alt="United States of America" >
+      <div class="rubic">
+    <h2 class="site-heading">United States of America</h2>
+     <p class="site-text"> <b>Population:</b> 323,947,000</p>
+     <p class="site-text"> <b> Region: </b>    Americas</p>
+     <p class="site-text"> <b> Capital: </b> Washington, D.C.</p>
+    </div>
+  </li>
+    <li class="site-item">
+      <img class="site-img" src="img/1280px-Flag_of_Germany.svg-2.png" alt="Brazil" >
+      <div class="rubic">
+    <h2 class="site-heading">Brazil</h2>
+     <p class="site-text"> <b>Population:</b> 206,135,893</p>
+     <p class="site-text"> <b> Region: </b>Americas</p>
+     <p class="site-text"> <b> Capital: </b>Brasília</p>
+    </div>
+  </li>
+    <li class="site-item">
+      <img class="site-img" src="img/1280px-Flag_of_Germany.svg-3.png" alt="" >
+      <div class="rubic">
+    <h2 class="site-heading">Iceland</h2>
+     <p class="site-text"> <b>Population:</b>334,300</p>
+     <p class="site-text"> <b> Region: </b>Europe</p>
+     <p class="site-text"> <b> Capital: </b>Reykjavík</p>
+    </div>
+  </li>
+  </div>
+</ul>
+
+
+</div>
+</main>
 
   <script src="js/main.js"></script>
 </body>
